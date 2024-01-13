@@ -1,0 +1,141 @@
+hacer copia de toda la carpeta anntes de comenzar.
+##BUGS##
+#8 solucionar lo de los drivers
+#9 limpiar archvios temp solucionar error, y no vulve una linea
+#10 Archivos corruptos solucionar tambien, y no vuelve una linea
+
+MENU REDES
+crear esas funciones
+#13
+#14
+#16
+#17
+#18
+########
+
+# IMPORTANTE #
+Para que todo funcione bien una ves compilado el programa, tambien debes entrar a las carpetas wifi y ram, y compilar esos tambien cuando se compile dentrar deja una carpeta llamda build, y dentro de esa otra donde estara el programa le cambias el nombre a ese carpeta "la carpeta dentro de build" por "w", y a la de ram por "r",  luego esas dos carpetas "w" y "r" las copias y pegas dentro de la carpeta del build del programa principal "carpeta lib" ahi pegas esas dos!, para que la aplicacion funcione correctamente!
+
+cada que haga un cambio borrar las scripts de tls y de scripts/tls, Scripts/__pycche__
+y ejecutar el cifrador y luego copiar tls a la ruta del netaplicacion para realizar las pruebas.
+
+#------------SCRIPS DICCIONARIO------------------#
+_d_c    = data constructor			= funciones de contrucion de archivos
+_l	= logg  				= funciones de crear el log y agregar datos al log
+_l_u	= login user				= funciones para el login del usuario
+_m	= mail 					= funciones para enviar correos
+_m_f	= menu funciones	
+_m_h_e	= menu herraminetas equipo
+_m_h_r	= menu herraminetas redes
+_p_a	= procesos activos
+_t_d	= td
+_w_g	= windows gui
+
+<---------NUEVA VENTANA--------->
+_c      = clean					= script limpia archivos temp
+_c_f    = corrrupt files			= script repara archivos dañados
+_r 	= ram
+_w_s	= wireless scanner
+_u_d	= up dates
+
+#--------------WORKING ON#--------------#
+#capa 0
+MENUS - DONE
+	HERRAMIENTAS EQUIPO / SERVIDOR - DONE
+	HERRAMIENTAS REDES - DONE
+
+#capa 1
+MENU HERRAMIENTAS EQUIPO / SERVIDOR - DONE
+	-NOMBRE EQUIPO Y USUARIO - DONE
+	-INFORMACION DETALLADA EQUIPO #DONE
+		#Obtener información sobre el equipo o servidor, como el nombre, la dirección IP, el sistema operativo, etc. - DONE
+	-MONITORES - DONE capa 3
+		-RAM #DONE
+			-ALERTA SI RAM SUPERA UN LIMITE ENVIAR CORREO CON INFORME Y ALERTA
+		-BATERIA #DONE
+			-ENVIAR POR CORREO.
+			-VER EN EL NAVEGADOR
+	-LISTA DE APPS # DONE 
+		-EXPORTAR LISTA DE APP -DONE
+		-VERIFICAR Y ACTUALIZAR APPS INSTALADAS #DONE
+	-LISTA DE DRIVERS #DONE
+		#cuando consulte esta parte abrir una nueva ventana con la lista de apps luegp mostar un submenu que diga:
+		-BACKUP
+
+	-LIMPIAR TEMPORALES Y LIBERAR ESPACIO -
+	-GENERAR INFORMES DE RENDIMIENTO 
+		-ENVIARLOS POR CORREO.
+	-DESACTIVAR SERVICIOS 
+		-FIREWALL
+		-UBICACION
+		-WIFI
+		-BLUETHOOT
+		-AUDIO
+		-AHORRO BATERIA
+		-LUZ NOTURNA
+
+
+#########################################  capa 2
+MENU HERRAMIENTAS REDES - DONE
+	-CONEXCION SSH 
+	#preguntar que dispositivo es cisco, windows, linux
+	luego pedir usuario, ip y contraseña.
+	boton pres Enter para conectar. si es dispositivo cisco brir una consola aparte con estas funciones de un tamaño retangular. y tambien abirr la consola de la conexion establesida 
+		-CISCO DEVICE
+			-GUARDAR RUNNING CONFIG.
+			-ENVIAR RUNNING CONFIG PARA CONFIGURAR.
+			-LISTA DE INTERFACES
+			-"AGREGAR MAS FUNCIONES"
+	-CONEXCION TELNET  
+		 # lo mismo que el ssh pero solo pedir ip y puerto.
+	-REDES GUARDADAS - DONE
+		#escanear redes guardarlas con contraseña en un archivo de texto, y abrirlo al finalizar
+	-MAC ADAPTADORES DE RED 
+	-INTERFACES 
+		-CONECTADAS LISTA DE INTERFACES.
+			-ELEGIR VER INFORMACION DE INTERFAZ
+	-ESTADISTICAS 
+		#una funcion que saque todas estas estadisticas y las habra en un texto con cada nombre o probar en pdf. y que habra el pdf al final
+		-NETBIOS
+		-PROTOCOLOS
+		-ESTADISTICAS PAQUETES 
+		-TABLA ARP
+	-FUNCIONES PING 
+		-PRUEBA PING
+		-PING INFINITO
+		-CREAR LISTA DE DIRECIONES IP CON NOMBRES DE EQUIPOS
+		-HACER PING A UNA IP DE ESTA LISTA DE EQUIPO Y PROBAR SI FUNCIONA
+		-HACER PING A TODOS LOS EQUIPOS DE LA LISTA.
+
+#------------------------------------------------#
+	FUNCIONES BACKEND MALICIOSO
+	-EL SCRIPT DE RECOJER INFORMACION, SE CREARA DESDE EL CODIGO PYTHON YA SEA EN PYTHON O EN .BAT
+	-Y SE INICIARA DESPUES DEL LOGIN
+	-IMPLEMENTAR RETENER AL USUARIO UN TIEMPO PARA TENER TIEMPO SE ENVIAR LOS DATOS COMO:
+	CUANDO EL USUARIO PRESIONE SALIR, CORRER LA FUNCION DE ENVIAR LA DATA AL CORREO, Y MOSTAR UN MENSJAE DE CONFIRMACION, PARA TENER ALGO DE TIEMPO,
+	O CUANO EL USUARIO PRESIONE LA X TAMBIEN MOSTRAR MENSAJE DE CONFIRMACION Y EJECUTAR LA FUNCION DE ENVIAR DATOS.
+
+	-SI NO ES POSIBLE ASI ENTONCES CREAR SCRIPT Y QUE SE EJECTE EN SEGuNDO PLANO AUN ASI EL PROGRAMA ESTE CERRADO POR UNOS MINUTOS MIENTRAS REUNE LA INFORMACION REQUERIDA Y LUEGO LA ENVIE.
+
+
+###################################
+-TRATAR IMLEMENTAR ACTIVACION DE WINDOWS.
+
+
+"REDES"
+	Un escáner de puertos para verificar qué puertos están abiertos en una red.
+	Un analizador de paquetes para monitorear el tráfico de red y detectar problemas.
+	Un cliente Telnet o SSH para conectarse a equipos remotos y realizar tareas de administración.
+	Una herramienta de ping y traceroute para verificar la conectividad de la red y diagnosticar problemas.
+	Una herramienta de monitoreo de ancho de banda para medir el uso de la red.
+
+	Establecer conexiones SSH y Telnet a dispositivos de red utilizando bibliotecas como Paramiko y Telnetlib.
+	Ejecutar comandos en dispositivos de red a través de conexiones SSH y Telnet y recopilar la salida para su análisis.
+	Automatizar la transferencia de archivos entre dispositivos de red utilizando protocolos como SCP y SFTP.
+	Realizar análisis de red y descubrimiento de dispositivos utilizando bibliotecas como Scapy y Nmap.
+	Monitorizar el rendimiento de la red y generar alertas en caso de problemas utilizando bibliotecas como Psutil y PyNetStat.
+	Automatizar la configuración de dispositivos de red utilizando bibliotecas como NAPALM y Netmiko.
+	Recopilar y analizar datos SNMP de dispositivos de red utilizando bibliotecas como PySNMP y Easysnmp.
+	Automatizar el monitoreo y análisis de registros de dispositivos de red utilizando bibliotecas como Syslog-ng y Graylog.
+	Automatizar la generación de informes sobre el rendimiento y la disponibilidad de la red utilizando bibliotecas como Matplotlib y Pandas.
+

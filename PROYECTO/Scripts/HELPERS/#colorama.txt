@@ -1,5 +1,37 @@
-# NetAplication_v1.5:
-	Esta es una actualizacion de la version 1.0 "Echa en c++", en este caso se uso python para su programacion, con algunas mejoras!
+USO COLORAMA:
+
+Fore.BLACK
+Fore.RED
+Fore.GREEN
+Fore.YELLOW
+Fore.BLUE
+Fore.MAGENTA
+Fore.CYAN
+Fore.WHITE
+
+Style.DIM
+Style.BRIGHT.
+
+Fore.RESET #Elima el color de las lineas donde se puso, si puso color y stylo solo elimina color
+Style.RESET_ALL #Elimina color y stylo
+
+#print doble linea:
+print(f"""{Fore.RED}{Style.DIM}
+#################################################
+#################################################
+{Style.RESET_ALL}""")
+
+#print sola linea:
+print(Fore.RED + "Texto en rojo")
+print(Fore.GREEN + Style.BRIGHT + "Texto en verde brillante")
+
+print("Texto normal sin restablecer")
+
+print(Style.RESET_ALL + "Texto con todos los estilos y colores restablecidos")
+print(Fore.RESET + "Texto con solo los colores del texto restablecidos")
+
+
+#BANEER
 
 ==================================================================================
 ========▄██▄      ▄▄================== ______                  __      ___========
@@ -14,9 +46,4 @@
 =▐████▀██████  █████===================█ ██ ██ ██ ██ ██ ██ ██ ██ ██          █====
 ===▀▀▀==█████▌ ████▀===================█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█====
 =========▀▀███ ▀▀▀================================================================
-
-# Folder's:
-	- APP_COMPILADO:
-		Encontraras una version ya compilada en formato ".exe", cada uno de sus archivos son requeridos!
-	- PROYECTO:
-		Encontraras todo el codigo del proyecto y demas documentacion!
+==================================================================================

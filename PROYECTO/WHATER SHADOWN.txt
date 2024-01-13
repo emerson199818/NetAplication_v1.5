@@ -1,6 +1,3 @@
-# NetAplication_v1.5:
-	Esta es una actualizacion de la version 1.0 "Echa en c++", en este caso se uso python para su programacion, con algunas mejoras!
-
 ==================================================================================
 ========▄██▄      ▄▄================== ______                  __      ___========
 =====  ▐███▀     ▄███▌================|  ____|                 \ \    / (_)=======
@@ -14,9 +11,4 @@
 =▐████▀██████  █████===================█ ██ ██ ██ ██ ██ ██ ██ ██ ██          █====
 ===▀▀▀==█████▌ ████▀===================█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█====
 =========▀▀███ ▀▀▀================================================================
-
-# Folder's:
-	- APP_COMPILADO:
-		Encontraras una version ya compilada en formato ".exe", cada uno de sus archivos son requeridos!
-	- PROYECTO:
-		Encontraras todo el codigo del proyecto y demas documentacion!
+==================================================================================

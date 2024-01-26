@@ -14,7 +14,14 @@
 	===▀▀▀==█████▌ ████▀===================█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█====
 	=========▀▀███ ▀▀▀================================================================
 # Capturas:
-![Captura 1](https://github.com/emerson199818/NetAplication_v1.5/blob/main/IMAGEN.png)
+![ICONO](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/icono.png)
+![Captura 1](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/1.png)
+![Captura 2](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/2.png)
+![Captura 3](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/3.png)
+![Captura 4](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/4.png)
+![Captura 5](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/5.png)
+![Captura 6](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/6.png)
+![Captura 7](https://github.com/emerson199818/NetAplication_v1.5/blob/main/SCREENSHOTS/7.png)
 
 
 # Folder's:

@@ -26,8 +26,8 @@ def enviar_correo_gmail(Subject, mensaje, archivo_adjunto=None):
     SMTP_SERVER = 'smtp.gmail.com'
     SMTP_PORT = 587
     destination = user_mail
-    gmail_username = 'notificaciones.netaplication@gmail.com'
-    gmail_password = 'wfosikbmcxfkexuo'
+    gmail_username = ''
+    gmail_password = ''
     # Crear objeto SMTP y establecer conexión
     smtp = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
     smtp.starttls()

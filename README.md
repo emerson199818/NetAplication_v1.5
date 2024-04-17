@@ -1,5 +1,7 @@
 # NetAplication_v1.5:
 	Esta es una actualizacion de la version 1.0 "Echa en c++", en este caso se uso python para su programacion, con algunas mejoras!
+
+	
 	==================================================================================
 	========▄██▄      ▄▄================== ______                  __      ___========
 	=====  ▐███▀     ▄███▌================|  ____|                 \ \    / (_)=======
